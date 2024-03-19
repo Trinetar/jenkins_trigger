@@ -1,0 +1,17 @@
+created git repository jenkins_trigger.
+created keypair on laptop
+
+added public key in Git's settings
+cloned repo via ssh on lappy
+
+in jenkins created job build as pipeline
+selected path from SCM
+added git clone url
+selected credential- jenkins- added credential with Private key data
+
+first build.
+
+in github repos's settings in webhooks
+added webhook as syntax - jenkins url:8080/github-webhook/
+appl type- json
+trigger on push
